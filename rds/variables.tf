@@ -31,10 +31,7 @@ variable "db_subnet_group_name" {
   type        = string
 }
 
-variable "db_security_group_ids" {
-  description = "The IDs of the security groups for the database"
-  type        = list(string)
-}
+
 
 variable "engine" {
   description = "The engine type for the database"
