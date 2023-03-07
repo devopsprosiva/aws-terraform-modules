@@ -1,3 +1,10 @@
+variable "vpc_cidr" {
+  type    = string
+}
+
+variable "vpc_id" {
+    type    = string
+  }
 
 variable "db_name" {
   description = "The name of the database"
