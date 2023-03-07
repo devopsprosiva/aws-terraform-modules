@@ -46,3 +46,8 @@ variable "engine_version" {
   description = "The engine version for the database"
   type        = string
 }
+
+variable "parameter_group_name" {
+  description = "The parameter group name for the database"
+  type        = string
+}
