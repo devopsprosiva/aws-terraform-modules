@@ -8,7 +8,7 @@ resource "aws_db_instance" "db" {
   password             = var.db_password
   parameter_group_name = var.parameter_group_name
   vpc_id = var.vpc_id
-  vpc_cide = var.vpc_cidr
+  vpc_cidr = var.vpc_cidr
   skip_final_snapshot  = true
   vpc_security_group_ids = var.db_security_group_ids
   db_subnet_group_name = var.db_subnet_group_name
