@@ -1,5 +1,5 @@
 variable "name" {
-  type = string
+  type        = string
   description = "VPC Name"
 }
 variable "vpc_cidr" {
@@ -17,11 +17,11 @@ variable "private_subnet_cidrs" {
 }
 
 variable "enable_dns_hostnames" {
-  type = bool
+  type    = bool
   default = true
 }
 
 variable "enable_dns_support" {
-  type = bool
+  type    = bool
   default = true
 }
